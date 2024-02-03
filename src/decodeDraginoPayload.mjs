@@ -1,6 +1,5 @@
-
 export function decodeDraginoPayload(bytes) {
-    if(bytes.length < 12) {
+    if (bytes.length < 12) {
         throw new Error("Payload too short");
     }
 

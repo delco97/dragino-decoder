@@ -1,4 +1,4 @@
-import { hexStringToByteArray } from '../src/hexStringToByteArray.mjs';
+import {hexStringToByteArray} from '../src/hexStringToByteArray.mjs';
 
 describe('hexStringToByteArray', () => {
     test('Converts hex string to byte array with even length', () => {

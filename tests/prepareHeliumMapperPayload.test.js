@@ -22,7 +22,7 @@ describe('prepareHeliumMapperPayload', () => {
             "alarm": true,
             "battery": 2.885,
             "latitude": null,
-            "longitude":null,
+            "longitude": null,
             "pitch": -12.34,
             "roll": 12.34,
         }
