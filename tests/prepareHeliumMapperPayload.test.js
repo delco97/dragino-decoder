@@ -12,7 +12,7 @@ describe('prepareHeliumMapperPayload', () => {
         }
         expect(prepareHeliumMapperPayload(draginoPayload)).toEqual({
             'accuracy': null,
-            'altitude': null, // Hardcoded because Dragino doesn't have this information
+            'altitude': null,
             'latitude': draginoPayload.latitude,
             'longitude': draginoPayload.longitude,
         });
