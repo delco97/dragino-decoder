@@ -37,8 +37,8 @@ export function decodeDraginoPayload(bytes) {
     } else if (value === 0 && value2 === 0) {
         console.log("gps no position yet")
     } else {
-        latitude = value / 10000;//gps latitude,units: Â°
-        longitude = value2 / 10000;//gps longitude,units: Â°
+        latitude = value / 10000;
+        longitude = value2 / 10000;
     }
 
     return {
