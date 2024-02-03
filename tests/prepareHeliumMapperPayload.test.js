@@ -11,8 +11,8 @@ describe('prepareHeliumMapperPayload', () => {
             "roll": 12.34,
         }
         expect(prepareHeliumMapperPayload(draginoPayload)).toEqual({
-            'accuracy': 3, // Hardcoded because Dragino doesn't have this information
-            'altitude': 3, // Hardcoded because Dragino doesn't have this information
+            'accuracy': null,
+            'altitude': null, // Hardcoded because Dragino doesn't have this information
             'latitude': draginoPayload.latitude,
             'longitude': draginoPayload.longitude,
         });
@@ -27,8 +27,8 @@ describe('prepareHeliumMapperPayload', () => {
             "roll": 12.34,
         }
         expect(prepareHeliumMapperPayload(draginoPayload)).toEqual({
-            'accuracy': 3, // Hardcoded because Dragino doesn't have this information
-            'altitude': 3, // Hardcoded because Dragino doesn't have this information
+            'accuracy': null,
+            'altitude': null,
             'latitude': draginoPayload.latitude,
             'longitude': draginoPayload.longitude,
         });
